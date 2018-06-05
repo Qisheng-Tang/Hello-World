@@ -35,7 +35,7 @@
                                 <rect key="frame" x="169" y="110.5" width="36" height="30"/>
                                 <state key="normal" title="Clear"/>
                                 <connections>
-                                    <action selector="clearTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="abJ-kw-X6S"/>
+                                    <action selector="clearTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1rM-hh-Ni4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -44,14 +44,15 @@
                             <constraint firstItem="hsX-7b-1tI" firstAttribute="centerX" secondItem="AJE-J3-JpH" secondAttribute="centerX" id="7Ay-gA-UFq"/>
                             <constraint firstItem="AJE-J3-JpH" firstAttribute="top" secondItem="rYe-w0-OnQ" secondAttribute="bottom" constant="10" id="DNk-BI-YkS"/>
                             <constraint firstItem="rYe-w0-OnQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="TOp-s2-H2t"/>
+                            <constraint firstItem="hsX-7b-1tI" firstAttribute="top" secondItem="rYe-w0-OnQ" secondAttribute="bottom" constant="50" id="YhW-9s-PR5"/>
                             <constraint firstItem="hsX-7b-1tI" firstAttribute="top" secondItem="AJE-J3-JpH" secondAttribute="bottom" constant="10" id="a1Z-WC-1qp"/>
                             <constraint firstItem="AJE-J3-JpH" firstAttribute="centerX" secondItem="rYe-w0-OnQ" secondAttribute="centerX" id="cVl-P1-QTo"/>
+                            <constraint firstItem="hsX-7b-1tI" firstAttribute="centerX" secondItem="rYe-w0-OnQ" secondAttribute="centerX" id="mp7-KE-86C"/>
                             <constraint firstItem="rYe-w0-OnQ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ozK-c2-pNj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="clearTapped" destination="hsX-7b-1tI" id="eNT-M4-cfR"/>
                         <outlet property="messageLabel" destination="rYe-w0-OnQ" id="VHz-u0-fdD"/>
                     </connections>
                 </viewController>
